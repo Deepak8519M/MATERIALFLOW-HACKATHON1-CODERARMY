@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MaterialFlow Documentation - Day 1: Introduction to Web Development
+    </title>
+  </head>
+  <body bgcolor="#0E0E12" text="white">
+    <!-- 🔝 Announcement Marquee -->
+    <marquee
+      bgcolor="crimson"
+      behavior="scroll"
+      direction="left"
+      scrollamount="6"
+      hspace="10"
+      vspace="3"
+    >
+      <table cellpadding="10">
+        <tr>
+          <td>
+            <font face="Trebuchet MS" size="4" color="white">
+              📚 Day 1: Kickstart Your Web Development Journey with MaterialFlow
+              - Understand the Internet, IP Addresses, DNS, and MERN Stack! 🚀
+            </font>
+          </td>
+        </tr>
+      </table>
+    </marquee>
+
+    <!-- Top Navigation -->
+    <table width="100%" cellpadding="15" cellspacing="0" bgcolor="#121212">
+      <tr>
+        <td align="left">
+          <table cellpadding="5" cellspacing="0">
+            <tr>
+              <td>
+                <img
+                  src="./extension_icon.png"
+                  alt="MaterialFlow Logo"
+                  width="40"
+                  height="40"
+                />
+              </td>
+              <td>
+                <font face="Trebuchet MS" size="6" color="white"
+                  ><b
+                    >Material<font color="#8812EF"
+                      ><strong>Flow</strong></font
+                    ></b
+                  ></font
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td align="right">
+          <table cellpadding="5" cellspacing="5">
+            <tr>
+              <td bgcolor="#4A148C" align="center">
+                <a href="index.html"
+                  ><font face="Courier New" color="white">Home</font></a
+                >
+              </td>
+              <td bgcolor="#4A148C" align="center">
+                <a href="lecture1.html"
+                  ><font face="Courier New" color="white">Lectures</font></a
+                >
+              </td>
+              <td bgcolor="#4A148C" align="center">
+                <a href="docs.html"
+                  ><font face="Courier New" color="white">Docs</font></a
+                >
+              </td>
+              <td bgcolor="#4A148C" align="center">
+                <a href="resources.html"
+                  ><font face="Courier New" color="white">Resources</font></a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- 🏗️ Main Layout -->
+    <table width="100%" border="0" cellpadding="20" cellspacing="0">
+      <tr valign="top">
+        <!-- 📌 Sidebar -->
+        <td width="20%" bgcolor="#18181C">
+          <font face="Verdana" size="4" color="white"><b>📂 Menu</b></font>
+          <hr color="#333333" />
+          <font face="Verdana" size="3" color="lightgray">
+            <table
+              width="100%"
+              cellpadding="10"
+              cellspacing="10"
+              bgcolor="#18181C"
+            >
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="index.html"
+                    ><font color="white">🏠 Home Page</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="docs.html"
+                    ><font color="white">📄 Documentation</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#18181C" align="left">
+                  <a href="lecture1.html"
+                    ><font color="white">Day 1️⃣: Basics</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="lecture2.html"
+                    ><font color="white">Day 2️⃣: Structure</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="lecture3.html"
+                    ><font color="white">Day 3️⃣: Nested Lists & Tables</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="lecture4.html"
+                    ><font color="white"
+                      >Day 4️⃣: File Paths & Semantics</font
+                    ></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="lecture5.html"
+                    ><font color="white">Day 5️⃣: HTML Forms</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="lecture6.html"
+                    ><font color="white">Day 6️⃣: HTML Media</font></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#4A148C" align="left">
+                  <a href="resources.html"
+                    ><font color="white">📚 Resources</font></a
+                  >
+                </td>
+              </tr>
+            </table>
+          </font>
+        </td>
+        <!-- 📖 Right Content -->
+        <td width="80%" bgcolor="#0E0E12">
+          <!-- Title -->
+          <header>
+            <h1>
+              <font face="Trebuchet MS" size="8" color="white"
+                >📘 Day 1: Introduction to Web Development</font
+              >
+            </h1>
+            <hr color="#7610D0" />
+          </header>
+
+          <main>
+            <!-- Section 1: Course Introduction -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >1. Course Introduction 🚀</font
+                >
+              </h2>
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      Welcome to MaterialFlow's Web Development Course, designed
+                      to take you from beginner to advanced, covering the
+                      <strong
+                        >MERN stack (MongoDB, Express.js, React,
+                        Node.js)</strong
+                      >, Spring Boot, system design, and AI basics. Led by Rohit
+                      Negi, an IIT Guwahati alumnus with experience at Uber,
+                      this course equips you with practical skills to build
+                      scalable projects and become placement-ready for
+                      freelancing, startups, or corporate tech roles.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Course Objectives:</b><br />
+                      - Master the fundamentals of how the internet works.<br />
+                      - Learn to build full-stack web applications.<br />
+                      - Understand client-server architecture and networking.<br />
+                      - Prepare for real-world development challenges.<br /><br />
+                      <b>Instructor:</b> Rohit Negi (B.Tech, Master's from IIT
+                      Guwahati, ex-Uber engineer, YouTube educator for 2.5+
+                      years).<br /><br />
+                      <b>Expectations:</b><br />
+                      - Consistency: Follow daily video releases
+                      (Monday–Friday).<br />
+                      - Complete all tasks and share progress on LinkedIn/X for
+                      accountability.<br /><br />
+                      <b>Real-World Outcome:</b> Build and deploy a
+                      portfolio-ready website.
+                    </font>
+                    <br /><br />
+                    <progress value="20" max="100"></progress>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <br />Progress: 23% (Day 1 of 06)
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 2: How the Internet Works -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >2. How the Internet Works 🌐</font
+                >
+              </h2>
+
+              <table>
+                <tr>
+                  <td>
+                    <img width="" src="./page1.gif" alt="" />
+                  </td>
+                  <td>
+                    <img width="500px" src="./internet1.png" alt="" />
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      The internet is a global network of interconnected
+                      computers that enables communication and data transfer.
+                      Understanding its core principles is essential for web
+                      development.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Principle 1: Sharing Information</b><br />
+                      To share data between two computers (e.g., Computer A to
+                      Computer B), a direct connection is needed. Initially,
+                      physical transfer (e.g., USB) was used, but electronic
+                      connections like ethernet or fiber optic cables allow
+                      faster data transfer using binary signals (1s and 0s).
+                    </font>
+                    <pre>
+&lt;!-- Example: Basic data transfer concept --&gt;
+Computer A --[Ethernet Cable]--&gt; Computer B
+Signal: High voltage = 1, Low voltage = 0
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Principle 2: Scaling Connections</b><br />
+                      Connecting multiple computers directly requires too many
+                      cables. A <strong>switch</strong> acts as a central hub,
+                      creating a <strong>Local Area Network (LAN)</strong> for
+                      efficient communication within a small area (e.g., office,
+                      home).
+                    </font>
+                    <pre>
+&lt;!-- LAN Example --&gt;
+Computer A --&gt; Switch &lt;-- Computer B
+Computer C --&gt; Switch &lt;-- Computer D
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Principle 3: Connecting Networks</b><br />
+                      To connect multiple LANs, a <strong>router</strong> links
+                      networks, forming the internet—a
+                      <strong>network of networks</strong>. Routers pass data
+                      between networks, enabling global communication.
+                    </font>
+                    <pre>
+&lt;!-- Internet Example --&gt;
+LAN 1 (Switch) --&gt; Router --&gt; LAN 2 (Switch)
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Principle 4: Addressing</b><br />
+                      Each device needs a unique
+                      <strong>IP address</strong> (e.g., 142.250.184.142) to
+                      send and receive data. Routers use IP addresses to route
+                      data to the correct destination.
+                    </font>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Principle 5: Reliability with Packets</b><br />
+                      Data is broken into small <strong>packets</strong> for
+                      efficient and reliable transfer. Each packet includes: -
+                      Payload (data chunk)<br />
+                      - Sender and receiver IP addresses<br />
+                      - Packet number for reassembly<br />
+                      The <strong>TCP/IP protocol</strong> ensures packets are
+                      sent, received, and reassembled correctly.
+                    </font>
+                    <pre>
+&lt;!-- Packet Structure Example --&gt;
+Packet: [Sender IP: 192.168.1.2 | Receiver IP: 142.250.184.142 | Packet 1/100 | Data: "Hello"]
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Analogy:</b> Sending a book via mail by
+                      tearing it into pages, numbering them, and mailing each
+                      page separately. The receiver reassembles the pages in
+                      order.
+                    </font>
+                    <br /><br />
+                    <blockquote>
+                      <font face="Courier New" size="2" color="lightgray">
+                        "The internet is not a single cloud—it's millions of
+                        local networks connected by routers, enabling global
+                        communication." — Rohit Negi
+                      </font>
+                    </blockquote>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 3: IP Addresses -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >3. IP Addresses 📍</font
+                >
+              </h2>
+              <table>
+                <tr>
+                  <td>
+                    <img width="500px" height="250px" src="./ip1.jpeg" alt="" />
+                  </td>
+                  <td>
+                    <img width="500px" height="250px" src="./ip2.jpeg" alt="" />
+                  </td>
+                </tr>
+              </table>
+              <br /><br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      An <strong>IP address</strong> is a unique identifier for
+                      devices on a network, enabling precise data routing.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>IPv4:</b><br />
+                      - 32-bit address, formatted as four decimal numbers
+                      (0–255) separated by dots (e.g.,
+                      <code>172.217.16.142</code>).<br />
+                      - Total addresses: ~4.3 billion (2³²).<br />
+                      - Limitation: Insufficient for the growing number of
+                      devices (e.g., phones, IoT devices).<br /><br />
+                      <b>IPv6:</b><br />
+                      - 128-bit address, using hexadecimal (e.g.,
+                      <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code
+                      >).<br />
+                      - Total addresses: ~340 undecillion (2¹²⁸),
+                      future-proofing the internet.<br /><br />
+                      <b>Public vs. Private IPs:</b><br />
+                      - <b>Public IP:</b> Globally unique, assigned by ISPs
+                      (e.g., <code>122.162.144.84</code>).<br />
+                      - <b>Private IP:</b> Unique within a local network (e.g.,
+                      <code>192.168.1.8</code>), reusable across networks.<br />
+                      - Reserved private ranges:
+                      <code>10.0.0.0–10.255.255.255</code>,
+                      <code>172.16.0.0–172.31.255.255</code>,
+                      <code>192.168.0.0–192.168.255.255</code>.<br /><br />
+                      <b>NAT (Network Address Translation):</b> Routers
+                      translate private IPs to public IPs for internet access,
+                      conserving public IP addresses.
+                    </font>
+                    <br /><br />
+                    <table
+                      border="1"
+                      cellpadding="5"
+                      cellspacing="0"
+                      bgcolor="#18181C"
+                    >
+                      <tr bgcolor="#4A148C">
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Type</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Example</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Scope</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Purpose</font
+                          >
+                        </th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Public IP</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >122.162.144.84</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Global</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Internet communication</font
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Private IP</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >192.168.1.8</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Local</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >LAN communication</font
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                    <br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> When you visit
+                      <code>whatismyipaddress.com</code>, it shows your router’s
+                      public IP. Your device’s private IP is visible in Wi-Fi
+                      settings.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 4: MAC Addresses -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >4. MAC Addresses 🔗</font
+                >
+              </h2>
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      A <strong>MAC (Media Access Control) address</strong> is a
+                      permanent, unique identifier for a device’s network
+                      interface, assigned during manufacturing.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Format:</b> 48-bit, displayed as 12 hexadecimal digits
+                      (e.g., <code>3C:22:FB:A3:B4:C5</code>).<br />
+                      <b>Multiple MACs:</b> A device can have multiple MAC
+                      addresses (e.g., one for Wi-Fi, one for Ethernet, one for
+                      Bluetooth).<br />
+                      <b>Purpose:</b> Ensures accurate data delivery within a
+                      LAN, especially when IP addresses change dynamically.<br />
+                      <b>Security Role:</b> Including MAC addresses in packets
+                      prevents data misdirection if an IP is reassigned.
+                    </font>
+                    <pre>
+&lt;!-- MAC Address Example --&gt;
+Request Packet: [IP: 192.168.1.2 | MAC: 3C:22:FB:A3:B4:C5 | Data: "Hi"]
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>How to Find MAC Address:</b><br />
+                      - <b>Windows:</b> Run <code>ipconfig /all</code> or
+                      <code>getmac /v</code> in Command Prompt.<br />
+                      - <b>macOS:</b> Run <code>ifconfig</code> in Terminal.<br />
+                      <b>Real-World Example:</b> AirDrop uses MAC addresses for
+                      direct device-to-device data transfer without internet.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 5: Port Numbers -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >5. Port Numbers 🔢</font
+                >
+              </h2>
+
+              <img width="500px" height="300px" src="./port1.jpg" alt="" />
+              <img width="500px" height="300px" src="./port2.png" alt="" />
+
+              <br /><br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <strong>Port numbers</strong> (0–65535) identify specific
+                      applications or services on a device, ensuring data
+                      reaches the correct program.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Categories:</b><br />
+                      - <b>Well-Known Ports (0–1023):</b> Reserved for standard
+                      services (e.g., HTTP: 80, HTTPS: 443).<br />
+                      - <b>Registered Ports (1024–49151):</b> Used by specific
+                      applications (e.g., MongoDB: 27017, React dev server:
+                      3000).<br />
+                      - <b>Dynamic Ports (49152–65535):</b> Temporary ports for
+                      client-side requests.<br />
+                      <b>Purpose:</b> Directs data to the correct application
+                      (e.g., Instagram tab vs. YouTube tab).
+                    </font>
+                    <pre>
+&lt;!-- Request with Port Example --&gt;
+Request: [IP: 192.168.1.2 | MAC: 3C:22:FB:A3:B4:C5 | Port: 5132 | Data: "Instagram Reel"]
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> When browsing, your browser
+                      assigns a dynamic port (e.g., 5132) to an Instagram tab to
+                      fetch a reel, ensuring the response returns to the correct
+                      tab.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 6: DNS (Domain Name System) -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >6. Domain Name System (DNS) 🔍</font
+                >
+              </h2>
+
+              <img width="700px" src="./dns1.png" alt="" />
+              <br /><br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      The <strong>Domain Name System (DNS)</strong> translates
+                      human-readable domain names (e.g.,
+                      <code>google.com</code>) into IP addresses.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>DNS Resolution Process:</b><br />
+                      1. Browser checks its cache.<br />
+                      2. If not found, queries the OS cache, then router
+                      cache.<br />
+                      3. If still unresolved, queries a
+                      <strong>Recursive DNS Resolver</strong> (e.g., ISP’s
+                      server or Google’s 8.8.8.8).<br />
+                      4. Resolver queries <strong>Root Servers</strong> to find
+                      the TLD server (e.g., <code>.com</code>).<br />
+                      5. TLD server directs to the
+                      <strong>Authoritative Name Server</strong> for the
+                      domain.<br />
+                      6. Authoritative server provides the IP address.<br />
+                      7. Resolver caches the result (TTL-based) and returns it
+                      to the browser.
+                    </font>
+                    <pre>
+&lt;!-- DNS Query Example --&gt;
+Browser: "What is the IP for google.com?"
+Resolver → Root Server → .com TLD Server → Google’s Name Server
+Response: 142.250.72.206
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> Typing
+                      <code>coderarmy.in</code> triggers a DNS query to fetch
+                      its IP, enabling your browser to connect to the server.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 7: HTTP vs. HTTPS -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >7. HTTP vs. HTTPS 🔒</font
+                >
+              </h2>
+
+              <table>
+                <tr>
+                  <td>
+                    <img
+                      width="500px"
+                      height="300px"
+                      src="./http1.jpeg"
+                      alt=""
+                    />
+                  </td>
+                  <td>
+                    <img
+                      width="500px"
+                      height="320px"
+                      src="./http2.png"
+                      alt=""
+                    />
+                  </td>
+                </tr>
+              </table>
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <strong>HTTP (HyperText Transfer Protocol)</strong> and
+                      <strong>HTTPS (HTTP Secure)</strong> govern how data is
+                      transferred between clients and servers.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>HTTP:</b><br />
+                      - Unencrypted, data is sent in plain text.<br />
+                      - Vulnerable to interception (e.g., hackers reading
+                      messages).<br />
+                      - Browsers may show a “Not Secure” warning.<br /><br />
+                      <b>HTTPS:</b><br />
+                      - Encrypted using SSL/TLS, ensuring data privacy.<br />
+                      - Converts messages (e.g., “Hi”) to unreadable form (e.g.,
+                      <code>access</code>) during transit.<br />
+                      - Essential for secure websites (e.g., banking,
+                      e-commerce). <br />
+                    </font>
+
+                    <br />
+
+                    <table
+                      border="1"
+                      cellpadding="5"
+                      cellspacing="0"
+                      bgcolor="#18181C"
+                    >
+                      <tr bgcolor="#4A148C">
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Protocol</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Security</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Port</font
+                          >
+                        </th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >HTTP</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Not Secure</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >80</font
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >HTTPS</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Secure</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >443</font
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                    <br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> HTTPS ensures your login
+                      credentials are encrypted when accessing
+                      <code>gmail.com</code>.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 8: Client-Server Architecture -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >8. Client-Server Architecture 🖥️</font
+                >
+              </h2>
+
+              <table>
+                <tr>
+                  <td>
+                    <img src="./ClientServerArchNotes.png" alt="" />
+                  </td>
+                  <td align="left"></td>
+                </tr>
+              </table>
+              <br /><br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      Web development revolves around the
+                      <strong>client-server architecture</strong>, where clients
+                      request data and servers respond.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Client:</b> A device or program (e.g., browser) that
+                      sends requests.<br />
+                      <b>Server:</b> A device or program that processes requests
+                      and sends responses (e.g.,
+                      <code>coderarmy.in</code> server).<br />
+                      <b>Process:</b><br />
+                      1. Client sends a request (e.g., for
+                      <code>google.com</code>).<br />
+                      2. DNS resolves the domain to an IP address.<br />
+                      3. Server returns files:
+                      <strong>HTML</strong> (structure),
+                      <strong>CSS</strong> (styling),
+                      <strong>JavaScript</strong> (interactivity).<br />
+                      4. Browser renders the files to display the website.
+                    </font>
+                    <pre>
+&lt;!-- Client-Server Example --&gt;
+Client (Browser) → Request: "GET google.com" → Server
+Server → Response: [HTML, CSS, JavaScript]
+                    </pre>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> Clicking a YouTube video sends
+                      a request to YouTube’s server, which responds with the
+                      video page’s files.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+            <img width="" src="./clientserver2.png" alt="" />
+            <br />
+
+            <!-- Section 9: MERN Stack and Full-Stack Development -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >9. MERN Stack and Full-Stack Development 🛠️</font
+                >
+              </h2>
+              <table align="center">
+                <tr>
+                  <td>
+                    <img src="./TechnoIcons.png" alt="" />
+                  </td>
+                </tr>
+              </table>
+              <br /><br />
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      The <strong>MERN stack</strong> is a popular framework for
+                      building full-stack web applications, covering front-end,
+                      back-end, and database components.
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>MERN Components:</b><br />
+                      - <b>MongoDB:</b> NoSQL database for storing data.<br />
+                      - <b>Express.js:</b> Backend framework for Node.js,
+                      handling server-side logic.<br />
+                      - <b>React:</b> JavaScript library for building dynamic
+                      user interfaces.<br />
+                      - <b>Node.js:</b> Runtime environment for running
+                      JavaScript on the server.<br />
+                      <br />
+                      <b>Full-Stack Development:</b><br />
+                      - <b>Front-End:</b> User interface (HTML, CSS, React).<br />
+                      - <b>Back-End:</b> Server logic, authentication (Node.js,
+                      Express, or Spring Boot).<br />
+                      - <b>Database:</b> Data storage (MongoDB, MySQL).<br />
+                      <b>Alternative:</b> Spring Boot (Java-based) for backend
+                      development.
+                    </font>
+
+                    <br />
+                    <br />
+                    <table
+                      border="1"
+                      cellpadding="5"
+                      cellspacing="0"
+                      bgcolor="#18181C"
+                    >
+                      <tr bgcolor="#4A148C">
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Component</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Technology</font
+                          >
+                        </th>
+                        <th>
+                          <font face="Courier New" size="2" color="white"
+                            >Role</font
+                          >
+                        </th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Front-End</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >React, HTML, CSS</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >User interface</font
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Back-End</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Node.js, Express</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Server logic</font
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Database</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >MongoDB</font
+                          >
+                        </td>
+                        <td>
+                          <font face="Courier New" size="2" color="lightgray"
+                            >Data storage</font
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                    <br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Real-World Example:</b> A social media app like
+                      Instagram uses React for the UI, Express/Node.js for
+                      handling posts, and MongoDB for storing user data.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 11: Assignment -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >11. Assignment: Explore Networking Basics 📝</font
+                >
+              </h2>
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Task:</b> Create a simple HTML page summarizing the
+                      internet’s core principles and networking concepts.<br />
+                      <br />
+                      <b>Requirements:</b><br />
+                      - Use <code>&lt;table&gt;</code> to present IP address
+                      types (Public vs. Private).<br />
+                      - Include a code snippet showing a YouTube thumbnail
+                      embed.<br />
+
+                      - Write a paragraph explaining DNS resolution.<br />
+                      - Share your page on LinkedIn/X with #MaterialFlow.<br />
+                      <br />
+                      <b>Bonus:</b> Find your device’s MAC address using Command
+                      Prompt or Terminal.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Section 12: Conclusion and Next Steps -->
+            <section>
+              <h2>
+                <font face="Trebuchet MS" size="5" color="white"
+                  >12. Conclusion and Next Steps 🔮</font
+                >
+              </h2>
+              <table
+                width="100%"
+                border="3"
+                cellpadding="10"
+                cellspacing="0"
+                bordercolor="#7610D0"
+              >
+                <tr bgcolor="#18181C">
+                  <td>
+                    <font face="Courier New" size="2" color="lightgray">
+                      Day 1 lays the foundation for web development by
+                      demystifying how the internet works, from IP addresses and
+                      DNS to client-server architecture and the MERN stack.
+                      You’re now equipped to start coding with HTML in Day 2!
+                    </font>
+                    <br /><br />
+                    <font face="Courier New" size="2" color="lightgray">
+                      <b>Next Steps:</b><br />
+                      - Complete the assignment and share progress.<br />
+                      - Review HTML basics for Day 2.<br />
+                      - Explore DNS tools like <code>nslookup</code>.<br />
+                      <br />
+                      <b>Stay Consistent:</b> Follow daily lectures and engage
+                      with the community on LinkedIn/X.
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <br />
+
+            <!-- Navigation Links -->
+            <nav>
+              <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                  <td align="left">
+                    <table cellpadding="5" cellspacing="0" bgcolor="#4A148C">
+                      <tr>
+                        <td align="center">
+                          <a href="lecture1.html"
+                            ><font face="Courier New" size="3" color="white"
+                              >⬅ Previous</font
+                            ></a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td align="right">
+                    <table cellpadding="5" cellspacing="0" bgcolor="#4A148C">
+                      <tr>
+                        <td align="center">
+                          <a href="lecture2.html"
+                            ><font face="Courier New" size="3" color="white"
+                              >Next ➡</font
+                            ></a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </nav>
+          </main>
+        </td>
+      </tr>
+    </table>
+
+    <!-- 🔻 Footer -->
+    <footer>
+      <table width="100%" border="0" cellpadding="20" bgcolor="#121212">
+        <tr>
+          <td align="center">
+            <font color="white" face="Verdana" size="2">
+              Crafted by Deepak Mallareddy | Coder Army Rohit Negi Hackathon 1
+              2025 | Pure HTML Dark Theme
+            </font>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
